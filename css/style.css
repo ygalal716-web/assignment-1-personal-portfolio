@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(26, 35, 50);
+}
+
+.main-container {
+    width: 700px;
+    margin: 0 auto;
+    background-color: rgb(244, 247, 252);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    background-color: rgb(26, 77, 140);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.header p {
+    margin-top: 5px;
+    color: rgb(176, 203, 232);
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 13px;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.box h2 {
+    color: rgb(26, 77, 140);
+    margin-top: 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 20px;
+}
+
+.my-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.about-info {
+    float: left;
+    width: 500px;
+}
+
+.about-info span {
+    font-weight: bold;
+    color: rgb(26, 77, 140);
+}
+
+.github-btn {
+    display: inline-block;
+    background-color: rgb(13, 92, 157);
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.skills-container {
+    width: 100%;
+}
+
+.skill {
+    float: left;
+    width: 23%;
+    background-color: rgb(248, 250, 252);
+    border: 1px solid rgb(230, 230, 230);
+    padding: 10px;
+    margin-right: 2.6%;
+    border-radius: 5px;
+    min-height: 130px;
+}
+
+.skill:last-of-type {
+    margin-right: 0;
+}
+
+.skill h3 {
+    color: rgb(26, 77, 140);
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.skill p {
+    font-size: 11px;
+    color: rgb(100, 100, 100);
+}
+
+.exp-item {
+    background-color: rgb(248, 250, 252);
+    border-left: 4px solid rgb(26, 77, 140);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.job-icon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 15px;
+}
+
+.job-info {
+    float: left;
+    width: 550px;
+}
+
+.job-info h3 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.job-info .company {
+    color: rgb(26, 77, 140);
+    font-weight: bold;
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.job-info .date {
+    color: rgb(150, 150, 150);
+    font-size: 11px;
+    margin: 0 0 10px 0;
+}
+
+.job-info p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.contact-box {
+    text-align: left;
+}
+
+.contact-box h2 {
+    color: white;
+}
+
+.contact-links a {
+    display: inline-block;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
